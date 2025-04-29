@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  border: solid;
+  position: relative;
+  height: 50vh;
+  width: 50vw;
+  justify-content: center;
+  margin: auto;
+}
+
+.display {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  width: 25%;
+  height: 5%;
+  text-align: end;
+
+  border: solid grey;
+
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  gap: 2%;
+}
+
+.digits {
+  color: black;
+  text-align: center;
+}
